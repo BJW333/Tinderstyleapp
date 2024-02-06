@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		189643282B71CF57007B25B0 /* TInderstyleappApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189643272B71CF57007B25B0 /* TInderstyleappApp.swift */; };
+		1896432A2B71CF57007B25B0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189643292B71CF57007B25B0 /* Persistence.swift */; };
+		1896432D2B71CF57007B25B0 /* TInderstyleapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1896432B2B71CF57007B25B0 /* TInderstyleapp.xcdatamodeld */; };
+		1896432F2B71CF57007B25B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896432E2B71CF57007B25B0 /* ContentView.swift */; };
+		189643312B71CF59007B25B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189643302B71CF59007B25B0 /* Assets.xcassets */; };
+		189643352B71CF59007B25B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 189643342B71CF59007B25B0 /* Preview Assets.xcassets */; };
+		1896433F2B71CF5A007B25B0 /* TInderstyleappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896433E2B71CF5A007B25B0 /* TInderstyleappTests.swift */; };
+		189643492B71CF5A007B25B0 /* TInderstyleappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189643482B71CF5A007B25B0 /* TInderstyleappUITests.swift */; };
+		1896434B2B71CF5A007B25B0 /* TInderstyleappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1896434A2B71CF5A007B25B0 /* TInderstyleappUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1896433B2B71CF5A007B25B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1896431C2B71CF57007B25B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189643232B71CF57007B25B0;
+			remoteInfo = TInderstyleapp;
+		};
+		189643452B71CF5A007B25B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1896431C2B71CF57007B25B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 189643232B71CF57007B25B0;
+			remoteInfo = TInderstyleapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		189643242B71CF57007B25B0 /* TInderstyleapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TInderstyleapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		189643272B71CF57007B25B0 /* TInderstyleappApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TInderstyleappApp.swift; sourceTree = "<group>"; };
+		189643292B71CF57007B25B0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1896432C2B71CF57007B25B0 /* TInderstyleapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TInderstyleapp.xcdatamodel; sourceTree = "<group>"; };
+		1896432E2B71CF57007B25B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		189643302B71CF59007B25B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		189643322B71CF59007B25B0 /* TInderstyleapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TInderstyleapp.entitlements; sourceTree = "<group>"; };
+		189643342B71CF59007B25B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1896433A2B71CF5A007B25B0 /* TInderstyleappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TInderstyleappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1896433E2B71CF5A007B25B0 /* TInderstyleappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TInderstyleappTests.swift; sourceTree = "<group>"; };
+		189643442B71CF5A007B25B0 /* TInderstyleappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TInderstyleappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		189643482B71CF5A007B25B0 /* TInderstyleappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TInderstyleappUITests.swift; sourceTree = "<group>"; };
+		1896434A2B71CF5A007B25B0 /* TInderstyleappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TInderstyleappUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		189643212B71CF57007B25B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189643372B71CF5A007B25B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189643412B71CF5A007B25B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1896431B2B71CF57007B25B0 = {
+			isa = PBXGroup;
+			children = (
+				189643262B71CF57007B25B0 /* TInderstyleapp */,
+				1896433D2B71CF5A007B25B0 /* TInderstyleappTests */,
+				189643472B71CF5A007B25B0 /* TInderstyleappUITests */,
+				189643252B71CF57007B25B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		189643252B71CF57007B25B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				189643242B71CF57007B25B0 /* TInderstyleapp.app */,
+				1896433A2B71CF5A007B25B0 /* TInderstyleappTests.xctest */,
+				189643442B71CF5A007B25B0 /* TInderstyleappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		189643262B71CF57007B25B0 /* TInderstyleapp */ = {
+			isa = PBXGroup;
+			children = (
+				189643272B71CF57007B25B0 /* TInderstyleappApp.swift */,
+				189643292B71CF57007B25B0 /* Persistence.swift */,
+				1896432E2B71CF57007B25B0 /* ContentView.swift */,
+				189643302B71CF59007B25B0 /* Assets.xcassets */,
+				189643322B71CF59007B25B0 /* TInderstyleapp.entitlements */,
+				1896432B2B71CF57007B25B0 /* TInderstyleapp.xcdatamodeld */,
+				189643332B71CF59007B25B0 /* Preview Content */,
+			);
+			path = TInderstyleapp;
+			sourceTree = "<group>";
+		};
+		189643332B71CF59007B25B0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				189643342B71CF59007B25B0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1896433D2B71CF5A007B25B0 /* TInderstyleappTests */ = {
+			isa = PBXGroup;
+			children = (
+				1896433E2B71CF5A007B25B0 /* TInderstyleappTests.swift */,
+			);
+			path = TInderstyleappTests;
+			sourceTree = "<group>";
+		};
+		189643472B71CF5A007B25B0 /* TInderstyleappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				189643482B71CF5A007B25B0 /* TInderstyleappUITests.swift */,
+				1896434A2B71CF5A007B25B0 /* TInderstyleappUITestsLaunchTests.swift */,
+			);
+			path = TInderstyleappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		189643232B71CF57007B25B0 /* TInderstyleapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1896434E2B71CF5A007B25B0 /* Build configuration list for PBXNativeTarget "TInderstyleapp" */;
+			buildPhases = (
+				189643202B71CF57007B25B0 /* Sources */,
+				189643212B71CF57007B25B0 /* Frameworks */,
+				189643222B71CF57007B25B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TInderstyleapp;
+			productName = TInderstyleapp;
+			productReference = 189643242B71CF57007B25B0 /* TInderstyleapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		189643392B71CF5A007B25B0 /* TInderstyleappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189643512B71CF5A007B25B0 /* Build configuration list for PBXNativeTarget "TInderstyleappTests" */;
+			buildPhases = (
+				189643362B71CF5A007B25B0 /* Sources */,
+				189643372B71CF5A007B25B0 /* Frameworks */,
+				189643382B71CF5A007B25B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1896433C2B71CF5A007B25B0 /* PBXTargetDependency */,
+			);
+			name = TInderstyleappTests;
+			productName = TInderstyleappTests;
+			productReference = 1896433A2B71CF5A007B25B0 /* TInderstyleappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		189643432B71CF5A007B25B0 /* TInderstyleappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 189643542B71CF5A007B25B0 /* Build configuration list for PBXNativeTarget "TInderstyleappUITests" */;
+			buildPhases = (
+				189643402B71CF5A007B25B0 /* Sources */,
+				189643412B71CF5A007B25B0 /* Frameworks */,
+				189643422B71CF5A007B25B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				189643462B71CF5A007B25B0 /* PBXTargetDependency */,
+			);
+			name = TInderstyleappUITests;
+			productName = TInderstyleappUITests;
+			productReference = 189643442B71CF5A007B25B0 /* TInderstyleappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1896431C2B71CF57007B25B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					189643232B71CF57007B25B0 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					189643392B71CF5A007B25B0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 189643232B71CF57007B25B0;
+					};
+					189643432B71CF5A007B25B0 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 189643232B71CF57007B25B0;
+					};
+				};
+			};
+			buildConfigurationList = 1896431F2B71CF57007B25B0 /* Build configuration list for PBXProject "TInderstyleapp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1896431B2B71CF57007B25B0;
+			productRefGroup = 189643252B71CF57007B25B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				189643232B71CF57007B25B0 /* TInderstyleapp */,
+				189643392B71CF5A007B25B0 /* TInderstyleappTests */,
+				189643432B71CF5A007B25B0 /* TInderstyleappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		189643222B71CF57007B25B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189643352B71CF59007B25B0 /* Preview Assets.xcassets in Resources */,
+				189643312B71CF59007B25B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189643382B71CF5A007B25B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189643422B71CF5A007B25B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		189643202B71CF57007B25B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				189643282B71CF57007B25B0 /* TInderstyleappApp.swift in Sources */,
+				1896432A2B71CF57007B25B0 /* Persistence.swift in Sources */,
+				1896432F2B71CF57007B25B0 /* ContentView.swift in Sources */,
+				1896432D2B71CF57007B25B0 /* TInderstyleapp.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189643362B71CF5A007B25B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1896433F2B71CF5A007B25B0 /* TInderstyleappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		189643402B71CF5A007B25B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1896434B2B71CF5A007B25B0 /* TInderstyleappUITestsLaunchTests.swift in Sources */,
+				189643492B71CF5A007B25B0 /* TInderstyleappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1896433C2B71CF5A007B25B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189643232B71CF57007B25B0 /* TInderstyleapp */;
+			targetProxy = 1896433B2B71CF5A007B25B0 /* PBXContainerItemProxy */;
+		};
+		189643462B71CF5A007B25B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 189643232B71CF57007B25B0 /* TInderstyleapp */;
+			targetProxy = 189643452B71CF5A007B25B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1896434C2B71CF5A007B25B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1896434D2B71CF5A007B25B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		1896434F2B71CF5A007B25B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TInderstyleapp/TInderstyleapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TInderstyleapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlakeWeiss.TInderstyleapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		189643502B71CF5A007B25B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TInderstyleapp/TInderstyleapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TInderstyleapp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlakeWeiss.TInderstyleapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		189643522B71CF5A007B25B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlakeWeiss.TInderstyleappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TInderstyleapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TInderstyleapp";
+			};
+			name = Debug;
+		};
+		189643532B71CF5A007B25B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlakeWeiss.TInderstyleappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TInderstyleapp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TInderstyleapp";
+			};
+			name = Release;
+		};
+		189643552B71CF5A007B25B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlakeWeiss.TInderstyleappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TInderstyleapp;
+			};
+			name = Debug;
+		};
+		189643562B71CF5A007B25B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BlakeWeiss.TInderstyleappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TInderstyleapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1896431F2B71CF57007B25B0 /* Build configuration list for PBXProject "TInderstyleapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1896434C2B71CF5A007B25B0 /* Debug */,
+				1896434D2B71CF5A007B25B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1896434E2B71CF5A007B25B0 /* Build configuration list for PBXNativeTarget "TInderstyleapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1896434F2B71CF5A007B25B0 /* Debug */,
+				189643502B71CF5A007B25B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189643512B71CF5A007B25B0 /* Build configuration list for PBXNativeTarget "TInderstyleappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189643522B71CF5A007B25B0 /* Debug */,
+				189643532B71CF5A007B25B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		189643542B71CF5A007B25B0 /* Build configuration list for PBXNativeTarget "TInderstyleappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				189643552B71CF5A007B25B0 /* Debug */,
+				189643562B71CF5A007B25B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1896432B2B71CF57007B25B0 /* TInderstyleapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1896432C2B71CF57007B25B0 /* TInderstyleapp.xcdatamodel */,
+			);
+			currentVersion = 1896432C2B71CF57007B25B0 /* TInderstyleapp.xcdatamodel */;
+			path = TInderstyleapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1896431C2B71CF57007B25B0 /* Project object */;
+}
